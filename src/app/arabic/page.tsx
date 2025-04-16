@@ -1,6 +1,4 @@
 import React from 'react'
-import WhoWeServePage from '../components/WhoWeSearvePage'
-import HowWeWorkPage from '../components/HowWeWork'
 import OurPresence from '../components/OurPresence'
 import TrustCompliance from '../components/TrustCompliance'
 import ContactUs from '../components/ContactUs'
@@ -10,6 +8,8 @@ import Bannerarabic from '../components/Bannerarabic'
 import Whowearearabic from '../components/Whowearearabic'
 import Ourvisionandmissionarabic from '../components/Ourvisionandmissionarabic'
 import DivisionsPageArabic from '../components/DivisionsPageArabic'
+import WhoWeServePageArabic from '../components/WhoWeServePagearabic'
+import HowWeWorkPageArabic from '../components/HowWeworkArabic'
 
 export default function page() {
   return (
@@ -19,8 +19,8 @@ export default function page() {
         <Whowearearabic/>
         <Ourvisionandmissionarabic/>
         <DivisionsPageArabic/>
-        <WhoWeServePage/>
-        <HowWeWorkPage/>
+        <WhoWeServePageArabic></WhoWeServePageArabic>
+        <HowWeWorkPageArabic/>
         <OurPresence/>
         <TrustCompliance/>
         <ContactUs/>

@@ -7,16 +7,16 @@ export default function DivisionsPageArabic() {
             <div className="max-w-7xl mx-auto px-4 md:px-8 text-center">
                 {/* Heading */}
                 <h2 className="text-3xl md:text-5xl font-bold text-[#002B5B] mb-2 font-ttinter">
-                    Divisions & Investments
+                الأقسام والاستثمارات
                 </h2>
                 <p className="text-gray-600 mb-12">
-                    Admass International Group operates and invests in
+                تعمل مجموعة أدماس العالمية وتستثمر في
                 </p>
 
                 {/* Grid */}
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 mb-14">
                     {/* CARD 1 */}
-                    <div className="bg-white rounded-lg shadow-sm p-5 flex flex-col ">
+                    <div className="bg-white rounded-lg shadow-sm p-5 flex flex-col  justify-end items-end">
                         <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56" fill="none">
                             <g id="Frame">
                                 <g id="Group">
@@ -24,11 +24,11 @@ export default function DivisionsPageArabic() {
                                 </g>
                             </g>
                         </svg>
-                        <p className="mt-4 text-[#002B5B] text-left font-semibold">Real Estate Development</p>
+                        <p className="mt-4 text-[#002B5B] text-right font-semibold">مواد البناء والإمدادات الصناعية</p>
                     </div>
 
                     {/* CARD 2 */}
-                    <div className="bg-white rounded-lg shadow-sm p-5 flex flex-col ">
+                    <div className="bg-white rounded-lg shadow-sm p-5 flex flex-col  justify-end items-end">
                         <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60" fill="none">
                             <g id="Frame">
                                 <g id="Group">
@@ -36,11 +36,11 @@ export default function DivisionsPageArabic() {
                                 </g>
                             </g>
                         </svg>
-                        <p className="mt-4 text-[#002B5B] text-left font-semibold">Hospitality and Hotel Management</p>
+                        <p className="mt-4 text-[#002B5B] text-right font-semibold"> النقل والبنية التحتية اللوجستية</p>
                     </div>
 
                     {/* CARD 3 */}
-                    <div className="bg-white rounded-lg shadow-sm p-5 flex flex-col ">
+                    <div className="bg-white rounded-lg shadow-sm p-5 flex flex-col  justify-end items-end">
                         <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60" fill="none">
                             <g id="Frame" clip-path="url(#clip0_5311_119)">
                                 <g id="Group">
@@ -54,11 +54,11 @@ export default function DivisionsPageArabic() {
                                 </clipPath>
                             </defs>
                         </svg>
-                        <p className="mt-4 text-[#002B5B] text-left font-semibold">Transportation and Logistics Infrastructure</p>
+                        <p className="mt-4 text-[#002B5B] text-right font-semibold">الضيافة وإدارة الفنادق</p>
                     </div>
 
                     {/* CARD 4 (highlighted) */}
-                    <div className="bg-white rounded-lg border border-[#002B5B] shadow-md p-5 flex flex-col ">
+                    <div className="bg-white rounded-lg border border-[#002B5B] shadow-md p-5 flex flex-col  justify-end items-end">
                         <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60" fill="none">
                             <g id="Frame">
                                 <g id="Group">
@@ -66,11 +66,11 @@ export default function DivisionsPageArabic() {
                                 </g>
                             </g>
                         </svg>
-                        <p className="mt-4 text-[#002B5B] text-left font-semibold">Building Materials and Industrial Supply</p>
+                        <p className="mt-4 text-[#002B5B] text-right font-semibold">تطوير العقارات</p>
                     </div>
 
                     {/* CARD 5 */}
-                    <div className="bg-white rounded-lg shadow-sm p-5 flex flex-col ">
+                    <div className="bg-white rounded-lg shadow-sm p-5 flex flex-col  justify-end items-end">
                         <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60" fill="none">
                             <g id="Frame">
                                 <g id="Group">
@@ -80,11 +80,11 @@ export default function DivisionsPageArabic() {
                                 </g>
                             </g>
                         </svg>
-                        <p className="mt-4 text-[#002B5B] text-left  font-semibold">Automotive Services</p>
+                        <p className="mt-4 text-[#002B5B] text-right  font-semibold">استهداف قطاع الرعاية الصحية</p>
                     </div>
 
                     {/* CARD 6 */}
-                    <div className="bg-white rounded-lg shadow-sm p-5 flex flex-col ">
+                    <div className="bg-white rounded-lg shadow-sm p-5 flex flex-col  justify-end items-end">
                         <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60" fill="none">
                             <g id="Frame" clip-path="url(#clip0_5311_141)">
                                 <g id="Group">
@@ -97,11 +97,11 @@ export default function DivisionsPageArabic() {
                                 </clipPath>
                             </defs>
                         </svg>
-                        <p className="mt-4 text-[#002B5B] text-left font-semibold">Targeting Mining Sector</p>
+                        <p className="mt-4 text-[#002B5B] text-right font-semibold">استهداف قطاع الطاقة</p>
                     </div>
 
                     {/* CARD 7 */}
-                    <div className="bg-white rounded-lg shadow-sm p-5 flex flex-col ">
+                    <div className="bg-white rounded-lg shadow-sm p-5 flex flex-col  justify-end items-end">
                         <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60" fill="none">
                             <g id="Frame" clip-path="url(#clip0_5311_119)">
                                 <g id="Group">
@@ -115,11 +115,11 @@ export default function DivisionsPageArabic() {
                                 </clipPath>
                             </defs>
                         </svg>
-                        <p className="mt-4 text-[#002B5B] text-left font-semibold">Targeting Energy Sector</p>
+                        <p className="mt-4 text-[#002B5B] text-right font-semibold">استهداف قطاع التعدين</p>
                     </div>
 
                     {/* CARD 8 */}
-                    <div className="bg-white rounded-lg shadow-sm p-5 flex flex-col ">
+                    <div className="bg-white rounded-lg shadow-sm p-5 flex flex-col  justify-end items-end">
                         <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56" fill="none">
                             <g id="Frame" clip-path="url(#clip0_5311_155)">
                                 <g id="Group">
@@ -132,12 +132,12 @@ export default function DivisionsPageArabic() {
                                 </clipPath>
                             </defs>
                         </svg>
-                        <p className="mt-4 text-[#002B5B] text-left font-semibold">Targeting Healthcare Sector</p>
+                        <p className="mt-4 text-[#002B5B] text-right font-semibold">خدمات السيارات</p>
                     </div>
                 </div>
 
                 {/* CTA */}
-                <p className="text-[#002B5B] font-semibold text-lg">Let's Build the Future Together</p>
+                <p className="text-[#002B5B] font-semibold text-lg">دعونا نبني المستقبل معًا</p>
             </div>
         </section>
     );
