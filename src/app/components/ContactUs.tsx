@@ -1,7 +1,5 @@
 "use client";
 
-import { Mail, MapPin, Phone } from "lucide-react";
-
 export default function ContactUs() {
   return (
     <section className="bg-[#FDFBFA] py-20 font-poppins">

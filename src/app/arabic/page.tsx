@@ -25,7 +25,6 @@ export default function page() {
         <TrustComplianceArabic/>
         <ContactUsArabic/>
         <FooterArabic/>
-      
     </div>
   )
 }
