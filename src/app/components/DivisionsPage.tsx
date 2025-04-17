@@ -137,7 +137,7 @@ export default function DivisionsPage() {
                 </div>
 
                 {/* CTA */}
-                <p className="text-[#002B5B] font-poppins text-xl sm:text-2xl md:text-3xl lg:text-[32px] font-medium leading-[160%] tracking-[0.16px]">Let's Build the Future Together</p>
+                <p className="text-[#002B5B] font-poppins text-xl sm:text-2xl md:text-3xl lg:text-[32px] font-medium leading-[160%] tracking-[0.16px]">Lets Build the Future Together</p>
             </div>
         </section>
     );
