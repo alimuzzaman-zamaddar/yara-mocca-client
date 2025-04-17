@@ -6,36 +6,32 @@ export default function WhoWeServePage() {
     return (
         <>
             <section className="bg-white py-20">
-                <div className="max-w-7xl mx-auto px-4 md:px-8 flex flex-col lg:flex-row items-center gap-12">
+                <div className="max-w-7xl mx-auto px-4 md:px-8 flex flex-col-reverse lg:flex-row items-center gap-12">
 
 
                     {/* Text Section */}
                     <div className="w-full lg:w-1/3">
-                        <h2 className="text-5xl font-semibold mb-9 text-[#002B5B]">
+                        <h2 className="mb-9 text-[#002B5B] text_heading text-2xl sm:text-3xl md:text-4xl lg:text-[48px] font-[584] leading-[130%]">
                             Who We Serve
                         </h2>
                         <div className="space-y-5">
                             <div className="flex gap-5">
                                 <div className="w-[8px] bg-[#002B5B] rounded-2xl"></div>
-                                <p className=" text-[#070707] font-poppins ">
+                                <p className=" text-[#070707] font-poppins text-base sm:text-lg md:text-[20px] font-medium leading-[160%] tracking-[0.1px]">
                                     International Businesses entering or expanding into the Saudi market
 
                                 </p>
                             </div>
                             <div className="flex gap-5">
-                                <div className="w-[8px] bg-[#002B5B] rounded-2xl"></div>
-                                <p className=" text-[#070707] font-poppins ">
-                                    High-Net-Worth Individuals seeking
-                                    diversified, high-potential investments
-
-
+                                <div className="w-[10px] bg-[#002B5B] rounded-2xl"></div>
+                                <p className=" text-[#070707] font-poppins text-base sm:text-lg md:text-[20px] font-medium leading-[160%] tracking-[0.1px]">
+                                    High-Net-Worth Individuals seeking diversified, high-potential investments
                                 </p>
                             </div>
                             <div className="flex gap-5">
                                 <div className="w-[5px] bg-[#002B5B] rounded-2xl"></div>
-                                <p className=" text-[#070707] font-poppins ">
+                                <p className=" text-[#070707] font-poppins text-base sm:text-lg md:text-[20px] font-medium leading-[160%] tracking-[0.1px] ">
                                     Government and Vision <br /> 2030-Aligned Projects
-
                                 </p>
                             </div>
                         </div>
@@ -170,23 +166,23 @@ export default function WhoWeServePage() {
 
                     {/* Text Section */}
                     <div className="w-full lg:w-1/3">
-                        <h2 className="text-5xl font-semibold mb-9 text-[#002B5B]">
+                        <h2 className="mb-9 text-[#002B5B] text_heading text-2xl sm:text-3xl md:text-4xl lg:text-[48px] font-[584] leading-[130%]">
                             Our Approach
                         </h2>
                         <div className="space-y-5">
-                            <p className="text-gray-700 text-[16px] leading-[26px]">
+                            <p className="text-[#070707] font-poppins text-base sm:text-lg md:text-[20px] font-normal leading-[160%] tracking-[0.1px]">
                                 At Admass, we believe in strategic, market-aligned decision making grounded in:
                             </p>
                             <div className="flex gap-5">
                                 <div className="w-[5px] bg-[#002B5B] rounded-2xl"></div>
-                                <p className=" text-[#070707] font-poppins ">
+                                <p className=" text-[#070707] font-poppins text-base sm:text-lg md:text-[20px] font-medium leading-[160%] tracking-[0.1px] ">
                                     Thorough market research
 
                                 </p>
                             </div>
                             <div className="flex gap-5">
                                 <div className="w-[5px] bg-[#002B5B] rounded-2xl"></div>
-                                <p className=" text-[#070707] font-poppins ">
+                                <p className=" text-[#070707] font-poppins text-base sm:text-lg md:text-[20px] font-medium leading-[160%] tracking-[0.1px]">
                                     Calculated risk-taking
 
 
@@ -194,13 +190,13 @@ export default function WhoWeServePage() {
                             </div>
                             <div className="flex gap-5">
                                 <div className="w-[5px] bg-[#002B5B] rounded-2xl"></div>
-                                <p className=" text-[#070707] font-poppins ">
+                                <p className=" text-[#070707] font-poppins text-base sm:text-lg md:text-[20px] font-medium leading-[160%] tracking-[0.1px] ">
                                     Sustainable investment philosophy
 
                                 </p>
                             </div>
                             <div className="">
-                                <p className="text-gray-700 text-[16px] leading-[26px]">
+                                <p className="text-[#070707] font-poppins text-base sm:text-lg md:text-[20px] font-normal leading-[160%] tracking-[0.1px]">
                                     We design tailored investment and service models to support long-term success, regional
                                     competitiveness, and societal value.
                                 </p>

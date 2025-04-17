@@ -8,11 +8,11 @@ export default function TrustCompliance() {
       <div className="max-w-7xl mx-auto px-4 md:px-8 flex flex-col lg:flex-row items-center gap-12">
         {/* Left Text Content */}
         <div className="w-full lg:w-1/2">
-          <h2 className="text-[#002B5B] text-5xl font-ttinter font-semibold mb-6">
+          <h2 className="text-[#002B5B] text_heading text-2xl sm:text-3xl md:text-4xl lg:text-[48px] font-[584] leading-[130%] mb-6">
             Trust & Compliance
           </h2>
 
-          <div className="space-y-4 text-gray-800 text-[15px] leading-[26px] font-medium">
+          <div className="space-y-4 text-[#070707] font-poppins text-base sm:text-lg md:text-[20px] font-medium leading-[160%] tracking-[0.1px]">
             <div className="flex gap-3 items-start">
               <Image src="/check-icon.png" alt="check" width={25} height={25} />
               <span>Licensed by the Ministry of Commerce of Saudi Arabia.</span>

@@ -40,14 +40,14 @@ export default function Whowearearabic() {
 
                     {/* Text Section */}
                     <div className="w-full lg:w-1/2 text-right">
-                        <h2 className="text-4xl font-semibold text-[#002B5B]">
+                        <h2 className="text-2xl md:text-5xl mb-3 text_heading font-semibold text-[#002B5B]">
                         من نحن؟
                         </h2>
-                        <p className=" text-[#070707] mb-6 font-poppins">
+                        <p className="text-[#070707] mb-8 font-poppins text-base sm:text-lg md:text-xl lg:text-[20px] font-normal leading-[160%] tracking-[0.1px]">
                         تأسست مجموعة أدماس العالمية عام  ١٩٨٨ م. في المملكة العربية السعودية، وهي شركة رائدة في مجال الاستثمار والخدمات، تدعم الشركات العالمية في مسيرتها نحو النجاح في المملكة. بفضل خبرتنا في مختلف القطاعات، نقدم دعمًا شاملًا، بدءًا من الخدمات اللوجستية وخدمات القوى العاملة، وصولًا إلى الاستثمارات المتخصصة في القطاعات التالية:
                         </p>
 
-                        <div className="grid grid-cols-1  sm:grid-cols-2  mb-6 text-[#070707]">
+                        <div className="grid grid-cols-1  sm:grid-cols-2  mb-6 text-[#070707] font-poppins text-sm sm:text-base md:text-[18px] font-medium leading-[160%] tracking-[0.09px]">
                             <div className="space-y-3">
                                 <div className="flex justify-end gap-3">
                                     <span>النقل والبنية التحتية اللوجستية</span>
@@ -93,7 +93,7 @@ export default function Whowearearabic() {
 
                         </div>
 
-                        <p className="text-[#070707] font-poppins text-right">
+                        <p className="text-[#070707] mb-8 font-poppins text-base sm:text-lg md:text-xl lg:text-[20px] font-normal leading-[160%] tracking-[0.1px] text-right">
                         تتمتع أدماس بسمعة قوية ومحترمة لدى كبرى المؤسسات المالية، مما ساهم بشكل كبير في نمونا ومصداقيتنا على مر السنين. هذه السمعة تُمكّننا من تعزيز شراكاتنا الاستراتيجية وبناء ثقة المستثمرين والشركاء.
                         </p>
                     </div>
@@ -106,13 +106,13 @@ export default function Whowearearabic() {
 
                     {/* Text Section */}
                     <div className="w-full lg:w-1/2 text-right">
-                        <h2 className="text-4xl font-semibold text-[#002B5B]">
+                        <h2 className=" text-2xl md:text-5xl mb-4 font-semibold text_heading text-[#002B5B]">
                         إرثنا ومستقبلنا
                         </h2>
-                        <p className=" text-[#070707] mb-6 font-poppins">
+                        <p className=" mb-6 text-[#070707] font-poppins text-base sm:text-lg md:text-xl lg:text-[20px] font-normal leading-[160%] tracking-[0.1px]">
                         بفضل إرثها الممتد لأكثر من ثلاثة عقود، نجحت شركة أدماس في بناء علاقات عميقة مع الشركات الدولية والهيئات الحكومية والمستثمرين والشركاء الإقليميين والدوليين.
                         </p>
-                        <p className="text-[#070707] font-poppins">
+                        <p className="mb-6 text-[#070707] font-poppins text-base sm:text-lg md:text-xl lg:text-[20px] font-normal leading-[160%] tracking-[0.1px]">
                         واليوم، نتطور مع التركيز على الاستدامة والتكنولوجيا وأهداف التنمية الوطنية، ونهدف إلى أن نصبح شركة مدرجة في البورصة وقوة رائدة في تشكيل الاقتصاد السعودي الجديد والتوافق مع رؤية السعودية 2030. 
                         </p>
                     </div>

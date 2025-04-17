@@ -25,19 +25,19 @@ const Navbar = () => {
         <nav className="hidden md:flex items-center gap-8">
           <Link
             href="/"
-            className="text-[16px] font-normal text-[#070707] leading-[160%] tracking-[0.08px] font-poppins"
+            className="text-[#070707] font-poppins text-sm sm:text-base md:text-[16px] font-normal leading-[160%] tracking-[0.08px]"
           >
             Home
           </Link>
           <Link
             href="/"
-            className="text-[16px] font-normal text-[#070707] leading-[160%] tracking-[0.08px] font-poppins"
+            className="text-[#070707] font-poppins text-sm sm:text-base md:text-[16px] font-normal leading-[160%] tracking-[0.08px]"
           >
             About Us
           </Link>
           <Link
             href="/services"
-            className="text-[16px] font-normal text-[#070707] leading-[160%] tracking-[0.08px] font-poppins"
+            className="text-[#070707] font-poppins text-sm sm:text-base md:text-[16px] font-normal leading-[160%] tracking-[0.08px]"
           >
             Our Services
           </Link>
@@ -91,21 +91,21 @@ const Navbar = () => {
           <Link
             href="/"
             onClick={toggleMenu}
-            className="text-[16px] font-normal text-[#070707] leading-[160%] tracking-[0.08px] font-poppins"
+            className="text-[#070707] font-poppins text-sm sm:text-base md:text-[16px] font-normal leading-[160%] tracking-[0.08px]"
           >
             Home
           </Link>
           <Link
             href="/arabic"
             onClick={toggleMenu}
-            className="text-[16px] font-normal text-[#070707] leading-[160%] tracking-[0.08px] font-poppins"
+            className="text-[#070707] font-poppins text-sm sm:text-base md:text-[16px] font-normal leading-[160%] tracking-[0.08px]"
           >
             About Us
           </Link>
           <Link
             href="/services"
             onClick={toggleMenu}
-            className="text-[16px] font-normal text-[#070707] leading-[160%] tracking-[0.08px] font-poppins"
+            className="text-[#070707] font-poppins text-sm sm:text-base md:text-[16px] font-normal leading-[160%] tracking-[0.08px]"
           >
             Our Services
           </Link>

@@ -40,10 +40,10 @@ export default function WhoWeAre() {
 
                     {/* Text Section */}
                     <div className="w-full lg:w-1/2">
-                        <h2 className="text-4xl font-semibold text-[#002B5B]">
+                        <h2 className=" text-2xl md:text-5xl mb-3 text_heading font-semibold text-[#002B5B]">
                             Who We Are?
                         </h2>
-                        <p className=" text-[#070707] mb-6 font-poppins">
+                        <p className=" text-[#070707] mb-8 font-poppins text-base sm:text-lg md:text-xl lg:text-[20px] font-normal leading-[160%] tracking-[0.1px]">
                             Founded in 1988 in Saudi Arabia, Admass International Group is a
                             premier investment and service company supporting international
                             businesses in navigating and succeeding within the Kingdom. With
@@ -51,7 +51,7 @@ export default function WhoWeAre() {
                             logistics and manpower services to industry-specific investments in:
                         </p>
 
-                        <div className="grid grid-cols-1 sm:grid-cols-2  mb-6 text-[#070707]">
+                        <div className="grid grid-cols-1 sm:grid-cols-2  mb-6 text-[#070707] font-poppins text-sm sm:text-base md:text-[18px] font-medium leading-[160%] tracking-[0.09px]">
                             <div className="space-y-3">
                                 <div className="flex items-start gap-3">
                                     <CheckIcon />
@@ -96,7 +96,7 @@ export default function WhoWeAre() {
 
                         </div>
 
-                        <p className="text-[#070707] font-poppins">
+                        <p className="text-[#070707] font-poppins text-base sm:text-lg md:text-xl lg:text-[20px] font-normal leading-[160%] tracking-[0.1px]">
                             Admass holds a strong and respected reputation with major financial
                             institutions, which has significantly contributed to our growth and
                             credibility over the years. This reputation allows us to foster
@@ -112,13 +112,13 @@ export default function WhoWeAre() {
 
                     {/* Text Section */}
                     <div className="w-full lg:w-1/2">
-                        <h2 className="text-4xl font-semibold text-[#002B5B]">
+                        <h2 className=" text-2xl md:text-5xl mb-4 font-semibold text_heading text-[#002B5B]">
                             Our Legacy & Future
                         </h2>
-                        <p className=" text-[#070707] mb-6 font-poppins">
+                        <p className="mb-6 text-[#070707] font-poppins text-base sm:text-lg md:text-xl lg:text-[20px] font-normal leading-[160%] tracking-[0.1px]">
                             With a legacy of over three decades, Admass has developed deep relationships with international companies, government entities, and regional and international investors and partners.
                         </p>
-                        <p className="text-[#070707] font-poppins">
+                        <p className="text-[#070707] font-poppins text-base sm:text-lg md:text-xl lg:text-[20px] font-normal leading-[160%] tracking-[0.1px]">
                             Today, we are evolving with a focus on sustainability, technology, and national development goals, aiming to become a publicly listed company and a leading force in shaping the new Saudi economy and aligning with Saudi Vision 2030.
                         </p>
                     </div>

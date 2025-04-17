@@ -6,7 +6,7 @@ export default function Ourvisionandmissionarabic() {
         <section className="bg-white py-20 font-poppins">
             <div className="max-w-7xl mx-auto px-4 md:px-8">
                 {/* Title */}
-                <h2 className="text-center  text-3xl md:text-5xl font-semibold text-[#002B5B] font-ttinter mb-16">
+                <h2 className="text-center text-3xl md:text-5xl font-semibold text-[#002B5B] text_heading mb-16">
                     <span className=" pl-4 font-ttinter">الرؤية</span>
                     <span className="border-r border-l px-4 font-ttinter">الرسالة</span>
                     <span className="pr-4 font-ttinter">القيمة</span>

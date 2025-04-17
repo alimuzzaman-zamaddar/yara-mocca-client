@@ -20,20 +20,20 @@ export default function Footer() {
 
         {/* Quick Links */}
         <div className="text-center md:text-right">
-          <h4 className="text-white text-lg font-semibold mb-3">Quick Links</h4>
+          <h4 className="text-white font-ttinter text-lg sm:text-xl md:text-[24px] font-[584] leading-[130%] mb-3">Quick Links</h4>
           <ul className="space-y-3">
             <li>
-              <a href="#" className="hover:underline text-sm">
+              <a href="#" className="hover:underline text-[#E9E9EA] font-poppins text-sm sm:text-base md:text-[16px] font-normal leading-[160%] tracking-[0.08px]">
                 About Us
               </a>
             </li>
             <li>
-              <a href="#" className="hover:underline text-sm">
+              <a href="#" className="hover:underline text-[#E9E9EA] font-poppins text-sm sm:text-base md:text-[16px] font-normal leading-[160%] tracking-[0.08px]">
                 Our Services
               </a>
             </li>
             <li>
-              <a href="#" className="hover:underline text-sm">
+              <a href="#" className="hover:underline text-[#E9E9EA] font-poppins text-sm sm:text-base md:text-[16px] font-normal leading-[160%] tracking-[0.08px]">
                 Contact Us
               </a>
             </li>
@@ -42,7 +42,7 @@ export default function Footer() {
       </div>
 
       {/* Bottom Line */}
-      <div className="border-t border-white/20 mt-10 pt-4 text-center text-sm text-gray-300">
+      <div className="border-t border-white/20 mt-10 pt-4 text-[#777980] text-center font-poppins text-sm sm:text-base md:text-[16px] font-normal leading-[160%] tracking-[0.08px]">
         © 2025 Admass International Group. All rights reserved.
       </div>
     </footer>

@@ -6,7 +6,7 @@ export default function VisionAndMission() {
         <section className="bg-white py-20 font-poppins">
             <div className="max-w-7xl mx-auto px-4 md:px-8">
                 {/* Title */}
-                <h2 className="text-center text-3xl md:text-5xl font-semibold text-[#002B5B] font-ttinter mb-16">
+                <h2 className="text-center text-3xl md:text-5xl font-semibold text-[#002B5B] text_heading mb-16">
                     <span className="border-r pr-4 font-ttinter">Vision</span>
                     <span className="border-r px-4 font-ttinter">Mission</span>
                     <span className="pl-4 font-ttinter">Values</span>
@@ -26,11 +26,11 @@ export default function VisionAndMission() {
                                     </svg>
 
                                 </div>
-                                <h3 className="text-xl font-semibold text-[#002B5B] font-ttinter">
+                                <h3 className=" text_heading text-[#002B5B] font-tt-interphases text-lg sm:text-xl md:text-2xl lg:text-[32px] font-[584] leading-[130%] tracking-[0.16px]">
                                     Our Vision
                                 </h3>
                             </div>
-                            <p className="text-gray-700 text-[16px] leading-[26px]">
+                            <p className="text-[#070707] font-poppins text-base sm:text-lg md:text-[20px] font-normal leading-[160%] tracking-[0.1px]">
                                 To be a catalyst for national progress and global investment excellence—creating opportunities, building enduring value, and becoming a publicly listed leader aligned with Vision 2030.
                             </p>
                         </div>
@@ -47,11 +47,11 @@ export default function VisionAndMission() {
                                         </g>
                                     </svg>
                                 </div>
-                                <h3 className="text-xl font-semibold text-[#002B5B] font-ttinter">
+                                <h3 className="text-[#002B5B] text_heading text-lg sm:text-xl md:text-2xl lg:text-[32px] font-[584] leading-[130%] tracking-[0.16px]">
                                     Our Mission
                                 </h3>
                             </div>
-                            <p className="text-gray-700 text-[16px] leading-[26px]">
+                            <p className="text-[#070707] font-poppins text-base sm:text-lg md:text-[20px] font-normal leading-[160%] tracking-[0.1px]">
                                 To drive innovation across industries by offering exceptional, sustainable, and strategically aligned investment solutions that benefit our customers and communities throughout Saudi Arabia and beyond.
                             </p>
                         </div>
@@ -69,11 +69,11 @@ export default function VisionAndMission() {
                                     </g>
                                 </svg>
                             </div>
-                            <h3 className="text-xl font-semibold text-[#002B5B] font-ttinter">
+                            <h3 className="text-[#002B5B] text_heading text-lg sm:text-xl md:text-2xl lg:text-[32px] font-[584] leading-[130%] tracking-[0.16px]">
                                 Core Values
                             </h3>
                         </div>
-                        <ul className="list-disc pl-6 text-gray-700 space-y-2 text-[16px] leading-[26px]">
+                        <ul className="list-disc pl-6  space-y-2 text-[#070707] font-poppins text-base sm:text-lg md:text-[20px] font-normal leading-[160%] tracking-[0.1px]">
                             <li>
                                 <strong>Sustainability</strong> – Creating lasting value across all sectors.
                             </li>

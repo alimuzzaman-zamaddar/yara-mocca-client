@@ -6,17 +6,17 @@ export default function ContactUs() {
   return (
     <section className="bg-[#FDFBFA] py-20 font-poppins">
       <div className="max-w-7xl mx-auto px-4 md:px-8">
-        <h2 className="text-center text-3xl md:text-5xl font-semibold text-[#002B5B] mb-4">
+        <h2 className="text-center text-[#002B5B] text_heading text-2xl sm:text-3xl md:text-4xl lg:text-[48px] font-[584] leading-[130%] mb-4">
           Contact us
         </h2>
-        <p className="text-center text-sm text-[#070707] max-w-xl mx-auto mb-12">
+        <p className="text-[#070707] text-center font-poppins text-base sm:text-lg md:text-[20px] font-normal leading-[160%] tracking-[0.1px] max-w-3xl mx-auto mb-12">
           Let’s work together. Whether you’re looking to expand into Saudi Arabia <br />
           or explore new investment frontiers, Admass is your trusted partner.
         </p>
 
         <div className="flex flex-col lg:flex-row gap-12 justify-between">
           {/* Left Contact Details */}
-          <div className="space-y-6 text-sm text-[#070707]">
+          <div className="space-y-6 text-[#070707] font-poppins text-base sm:text-lg md:text-[20px] font-normal leading-[160%] tracking-[0.1px]">
             <div className="flex items-start gap-3">
               <MapPin className="text-[#002B5B]" size={20} />
               <span>Alwurud District, Riyadh, Saudi Arabia</span>
