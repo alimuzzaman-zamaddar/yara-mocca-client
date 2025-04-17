@@ -6,10 +6,10 @@ export default function DivisionsPageArabic() {
         <section className="bg-[#F8F8F8] py-20 font-poppins">
             <div className="max-w-7xl mx-auto px-4 md:px-8 text-center">
                 {/* Heading */}
-                <h2 className="text-3xl md:text-5xl font-bold text-[#002B5B] mb-2 font-ttinter">
+                <h2 className="text-[#002B5B] text-center text_heading text-2xl sm:text-3xl md:text-4xl lg:text-[48px] font-[584] leading-[130%] mb-2 ">
                 الأقسام والاستثمارات
                 </h2>
-                <p className="text-gray-600 mb-12">
+                <p className="text-[#070707] text-center font-poppins text-base sm:text-lg md:text-[20px] font-normal leading-[160%] tracking-[0.1px] mb-12">
                 تعمل مجموعة أدماس العالمية وتستثمر في
                 </p>
 
@@ -24,7 +24,7 @@ export default function DivisionsPageArabic() {
                                 </g>
                             </g>
                         </svg>
-                        <p className="mt-4 text-[#002B5B] text-right font-semibold">مواد البناء والإمدادات الصناعية</p>
+                        <p className="mt-4 text-left text-lefttext-left text-[#002B5B] text_heading text-base sm:text-lg md:text-xl lg:text-[24px] font-[584] leading-[130%]">مواد البناء والإمدادات الصناعية</p>
                     </div>
 
                     {/* CARD 2 */}
@@ -36,7 +36,7 @@ export default function DivisionsPageArabic() {
                                 </g>
                             </g>
                         </svg>
-                        <p className="mt-4 text-[#002B5B] text-right font-semibold"> النقل والبنية التحتية اللوجستية</p>
+                        <p className="mt-4 text-left text-lefttext-left text-[#002B5B] text_heading text-base sm:text-lg md:text-xl lg:text-[24px] font-[584] leading-[130%]"> النقل والبنية التحتية اللوجستية</p>
                     </div>
 
                     {/* CARD 3 */}
@@ -54,7 +54,7 @@ export default function DivisionsPageArabic() {
                                 </clipPath>
                             </defs>
                         </svg>
-                        <p className="mt-4 text-[#002B5B] text-right font-semibold">الضيافة وإدارة الفنادق</p>
+                        <p className="mt-4 text-left text-lefttext-left text-[#002B5B] text_heading text-base sm:text-lg md:text-xl lg:text-[24px] font-[584] leading-[130%]">الضيافة وإدارة الفنادق</p>
                     </div>
 
                     {/* CARD 4 (highlighted) */}
@@ -66,7 +66,7 @@ export default function DivisionsPageArabic() {
                                 </g>
                             </g>
                         </svg>
-                        <p className="mt-4 text-[#002B5B] text-right font-semibold">تطوير العقارات</p>
+                        <p className="mt-4 text-left text-lefttext-left text-[#002B5B] text_heading text-base sm:text-lg md:text-xl lg:text-[24px] font-[584] leading-[130%]">تطوير العقارات</p>
                     </div>
 
                     {/* CARD 5 */}
@@ -97,7 +97,7 @@ export default function DivisionsPageArabic() {
                                 </clipPath>
                             </defs>
                         </svg>
-                        <p className="mt-4 text-[#002B5B] text-right font-semibold">استهداف قطاع الطاقة</p>
+                        <p className="mt-4 text-left text-lefttext-left text-[#002B5B] text_heading text-base sm:text-lg md:text-xl lg:text-[24px] font-[584] leading-[130%]">استهداف قطاع الطاقة</p>
                     </div>
 
                     {/* CARD 7 */}
@@ -115,7 +115,7 @@ export default function DivisionsPageArabic() {
                                 </clipPath>
                             </defs>
                         </svg>
-                        <p className="mt-4 text-[#002B5B] text-right font-semibold">استهداف قطاع التعدين</p>
+                        <p className="mt-4 text-left text-lefttext-left text-[#002B5B] text_heading text-base sm:text-lg md:text-xl lg:text-[24px] font-[584] leading-[130%]">استهداف قطاع التعدين</p>
                     </div>
 
                     {/* CARD 8 */}
@@ -132,12 +132,12 @@ export default function DivisionsPageArabic() {
                                 </clipPath>
                             </defs>
                         </svg>
-                        <p className="mt-4 text-[#002B5B] text-right font-semibold">خدمات السيارات</p>
+                        <p className="mt-4 text-left text-lefttext-left text-[#002B5B] text_heading text-base sm:text-lg md:text-xl lg:text-[24px] font-[584] leading-[130%]">خدمات السيارات</p>
                     </div>
                 </div>
 
                 {/* CTA */}
-                <p className="text-[#002B5B] font-semibold text-lg">دعونا نبني المستقبل معًا</p>
+                <p className="text-[#002B5B] font-poppins text-xl sm:text-2xl md:text-3xl lg:text-[32px] font-medium leading-[160%] tracking-[0.16px]">دعونا نبني المستقبل معًا</p>
             </div>
         </section>
     );

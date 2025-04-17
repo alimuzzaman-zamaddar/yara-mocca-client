@@ -28,10 +28,10 @@ export default function Ourvisionandmissionarabic() {
                                 </div>
 
                             </div>
-                            <h3 className="text-xl text-end font-semibold text-[#002B5B] font-ttinter">
+                            <h3 className="text-end  text_heading text-[#002B5B] font-tt-interphases text-lg sm:text-xl md:text-2xl lg:text-[32px] font-[584] leading-[130%] tracking-[0.16px]">
                                     رؤيتنا
                                 </h3>
-                            <p className="text-gray-700 text-[16px] text-end leading-[26px]">
+                            <p className="text-end text-[#070707] font-poppins text-base sm:text-lg md:text-[20px] font-normal leading-[160%] tracking-[0.1px]">
                                 أن نكون حافزًا للتقدم الوطني والتميز الاستثماري العالمي - من خلال خلق الفرص وبناء قيمة دائمة والتحول إلى شركة رائدة مدرجة في البورصة بما يتماشى مع رؤية  2030.
                             </p>
                         </div>
@@ -50,10 +50,10 @@ export default function Ourvisionandmissionarabic() {
                                 </div>
 
                             </div>
-                            <h3 className="text-3xl text-right my-5  font-semibold text-[#002B5B] font-ttinter">
+                            <h3 className=" text-right  text_heading text-[#002B5B] font-tt-interphases text-lg sm:text-xl md:text-2xl lg:text-[32px] font-[584] leading-[130%] tracking-[0.16px]">
                                     مهمتنا
                                 </h3>
-                            <p className="text-gray-700 text-end text-[16px] leading-[26px]">
+                            <p className="text-end text-[#070707] font-poppins text-base sm:text-lg md:text-[20px] font-normal leading-[160%] tracking-[0.1px]">
                                 تعزيز الابتكار في مختلف الصناعات من خلال تقديم حلول استثمارية استثنائية ومستدامة ومتوافقة استراتيجيًا تعود بالنفع على عملائنا ومجتمعاتنا في جميع أنحاء المملكة العربية السعودية وخارجها.
                             </p>
                         </div>
@@ -73,11 +73,11 @@ export default function Ourvisionandmissionarabic() {
                             </div>
 
                         </div>
-                        <h3 className="text-3xl text-right my-5  font-semibold text-[#002B5B] font-ttinter">
+                        <h3 className="text-right my-5  text_heading text-[#002B5B] font-tt-interphases text-lg sm:text-xl md:text-2xl lg:text-[32px] font-[584] leading-[130%] tracking-[0.16px]">
                             القيم الأساسية
                         </h3>
 
-                        <div className="">
+                        <div className="list-disc pl-6  space-y-2 text-[#070707] font-poppins text-base sm:text-lg md:text-[20px] font-normal leading-[160%] tracking-[0.1px]">
                             <div className="flex justify-end items-center gap-5">
                                 <p className="text-[#070707] text-[20px]">  <strong>الاستدامة  – </strong> خلق قيمة دائمة في جميع القطاعات. </p>
                                 <div className="w-1.5 h-1.5 rounded-full bg-[#070707]"></div>
