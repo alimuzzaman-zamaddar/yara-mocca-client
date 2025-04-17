@@ -2,7 +2,7 @@
 
 export default function ContactUs() {
   return (
-    <section className="bg-[#FDFBFA] py-20 font-poppins">
+    <section id="contact" className="bg-[#FDFBFA] py-20 font-poppins">
       <div className="max-w-7xl mx-auto px-4 md:px-8">
         <h2 className="text-center text-[#002B5B] text_heading text-2xl sm:text-3xl md:text-4xl lg:text-[48px] font-[584] leading-[130%] mb-4">
           Contact us

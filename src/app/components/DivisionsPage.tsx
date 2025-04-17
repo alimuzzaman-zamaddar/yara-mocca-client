@@ -3,7 +3,7 @@
 
 export default function DivisionsPage() {
     return (
-        <section className="bg-[#F8F8F8] py-20 font-poppins">
+        <section id="services" className="bg-[#F8F8F8] py-20 font-poppins">
             <div className="max-w-[1320px] mx-auto px-4 md:px-8 text-center">
                 {/* Heading */}
                 <h2 className="text-[#002B5B] text-center text_heading text-2xl sm:text-3xl md:text-4xl lg:text-[48px] font-[584] leading-[130%] mb-2 ">

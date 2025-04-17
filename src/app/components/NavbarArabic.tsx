@@ -30,13 +30,13 @@ const Navbar = () => {
             خدماتنا 
           </Link>
           <Link
-            href="/arabic"
+            href="/arabic/#vision"
             className="text-[16px] font-normal text-[#070707] leading-[160%] tracking-[0.08px] font-poppins"
           >
             من نحن
           </Link>
           <Link
-            href="/services"
+            href="/arabic/#services"
             className="text-[16px] font-normal text-[#070707] leading-[160%] tracking-[0.08px] font-poppins"
           >
             الصفحة الرئيسية
@@ -59,9 +59,11 @@ const Navbar = () => {
             </svg> English
           </button>
           </Link>
+          <Link href="/arabic/#contact">
           <button className="bg-[#002B5B] text-white px-5 py-2 rounded-sm text-[16px] font-medium leading-[160%] tracking-[0.08px] font-poppins">
           اتصل بنا
           </button>
+          </Link>
         </div>
 
         {/* Hamburger */}
@@ -95,14 +97,14 @@ const Navbar = () => {
             خدماتنا
           </Link>
           <Link
-            href="/about"
+            href="/arabic/#vision"
             onClick={toggleMenu}
             className="text-[16px] font-normal text-[#070707] leading-[160%] tracking-[0.08px] font-poppins"
           >
             من نحن
           </Link>
           <Link
-            href="/services"
+            href="/arabic/#services"
             onClick={toggleMenu}
             className="text-[16px] font-normal text-[#070707] leading-[160%] tracking-[0.08px] font-poppins"
           >
@@ -121,9 +123,11 @@ const Navbar = () => {
               </defs>
             </svg> English
           </button>
+          <Link href="/arabic/#contact">
           <button className="bg-[#002B5B] text-white px-4 py-2 rounded-md text-[16px] font-medium leading-[160%] tracking-[0.08px] font-poppins">
           اتصل بنا
           </button>
+          </Link>
         </nav>
       </div>
     </header>

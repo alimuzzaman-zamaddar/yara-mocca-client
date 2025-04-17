@@ -30,13 +30,13 @@ const Navbar = () => {
             Home
           </Link>
           <Link
-            href="/"
+            href="/#vision"
             className="text-[#070707] font-poppins text-sm sm:text-base md:text-[16px] font-normal leading-[160%] tracking-[0.08px]"
           >
             About Us
           </Link>
           <Link
-            href="/services"
+            href="/#services"
             className="text-[#070707] font-poppins text-sm sm:text-base md:text-[16px] font-normal leading-[160%] tracking-[0.08px]"
           >
             Our Services
@@ -59,10 +59,11 @@ const Navbar = () => {
             </svg> العربية
           </button>
           </Link>
-          
+          <Link href="/#contact">
           <button className="bg-[#002B5B] text-white px-5 py-2 rounded-sm text-[16px] font-medium leading-[160%] tracking-[0.08px] font-poppins">
             Contact Us
           </button>
+             </Link>
         </div>
 
         {/* Hamburger */}
@@ -96,14 +97,14 @@ const Navbar = () => {
             Home
           </Link>
           <Link
-            href="/arabic"
+            href="/#vision"
             onClick={toggleMenu}
             className="text-[#070707] font-poppins text-sm sm:text-base md:text-[16px] font-normal leading-[160%] tracking-[0.08px]"
           >
             About Us
           </Link>
           <Link
-            href="/services"
+            href="/#services"
             onClick={toggleMenu}
             className="text-[#070707] font-poppins text-sm sm:text-base md:text-[16px] font-normal leading-[160%] tracking-[0.08px]"
           >
@@ -123,9 +124,11 @@ const Navbar = () => {
             </svg> العربية
           </button>
           </Link>
+          <Link href="/#contact">
           <button className="bg-[#002B5B] text-white px-4 py-2 rounded-md text-[16px] font-medium leading-[160%] tracking-[0.08px] font-poppins">
             Contact Us
           </button>
+          </Link>
         </nav>
       </div>
     </header>
