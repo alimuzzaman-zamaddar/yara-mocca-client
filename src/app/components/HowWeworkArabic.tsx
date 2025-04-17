@@ -6,7 +6,7 @@ export default function HowWeWorkPageArabic() {
     return (
         <section className="bg-[#F8F8F8] py-20 font-poppins">
             <div className="text-center mb-10">
-                <h2 className="text-5xl font-semibold text-[#002B5B]">كيف نعمل</h2>
+                <h2 className="text-[#002B5B] text_heading text-2xl sm:text-3xl md:text-4xl lg:text-[48px] font-[584] leading-[130%]">كيف نعمل</h2>
             </div>
             <div className="max-w-7xl mx-auto px-4 flex flex-col lg:flex-row gap-12 items-center">
                 {/* Left: Steps */}
@@ -14,11 +14,11 @@ export default function HowWeWorkPageArabic() {
                     {/* Steps */}
                     <div className="space-y-10 pl-12 relative z-10">
                         {/* Step 1 */}
-                        <div className="flex justify-end gap-4 items-end">
+                        <div className="flex justify-end gap-4 ">
 
                             <div className="text-end">
-                                <h3 className="text-[#002B5B] font-semibold text-lg">اكتشاف العميل</h3>
-                                <p className="text-gray-700 text-[15px] mt-1 leading-relaxed">
+                                <h3 className="text-[#002B5B] text_heading text-lg sm:text-xl md:text-[24px] font-[584] leading-[130%]">اكتشاف العميل</h3>
+                                <p className="text-[#070707] font-poppins text-base sm:text-lg md:text-[20px] font-normal leading-[160%] tracking-[0.1px]">
                                     نقوم بجمع المعلومات ذات الصلة حول عملك وأهدافك واحتياجات السوق.
                                 </p>
                             </div>
@@ -28,10 +28,10 @@ export default function HowWeWorkPageArabic() {
                             </svg>
                         </div>
                         {/* Step 2 */}
-                        <div className="flex gap-4 justify-end items-end">
+                        <div className="flex gap-4 justify-end ">
                             <div className="text-end">
-                                <h3 className="text-[#002B5B] font-semibold text-lg">أبحاث السوق السعودية</h3>
-                                <p className="text-gray-700 text-[15px] mt-1 leading-relaxed">
+                                <h3 className="text-[#002B5B] text_heading text-lg sm:text-xl md:text-[24px] font-[584] leading-[130%]">أبحاث السوق السعودية</h3>
+                                <p className="text-[#070707] font-poppins text-base sm:text-lg md:text-[20px] font-normal leading-[160%] tracking-[0.1px]">
                                     يقوم فريقنا بإجراء تحليل عميق لتقييم الفرصة والجدوى والمنافسة.
                                 </p>
                             </div>
@@ -44,8 +44,8 @@ export default function HowWeWorkPageArabic() {
                         {/* Step 3 */}
                         <div className="flex justify-end gap-4">
                             <div className="text-end">
-                                <h3 className="text-[#002B5B] font-semibold text-lg">التطوير الاستراتيجي</h3>
-                                <p className="text-gray-700 text-[15px] mt-1 leading-relaxed">
+                                <h3 className="text-[#002B5B] text_heading text-lg sm:text-xl md:text-[24px] font-[584] leading-[130%]">التطوير الاستراتيجي</h3>
+                                <p className="text-[#070707] font-poppins text-base sm:text-lg md:text-[20px] font-normal leading-[160%] tracking-[0.1px]">
                                     نقوم بتطوير خطة عمل مخصصة وننفذها بمرونة وامتثال.
                                 </p>
                             </div>
@@ -55,9 +55,9 @@ export default function HowWeWorkPageArabic() {
                             </svg>
                         </div>
                         {/* Reporting */}
-                        <div className="pl-12">
+                        <div className="pr-12 ">
                             <p className="text-[15px] text-end text-gray-700 leading-relaxed">
-                                <span className="font-semibold text-[#002B5B]">التقارير: يتم تصميم التواصل بما يتناسب مع مرحلة مشاركتك - تحديثات يومية أو أسبوعية أو شهرية حسب الحاجة.</span>
+                                <span className="text-[#070707] font-poppins text-base sm:text-lg md:text-[20px] font-normal leading-[160%] tracking-[0.1px]">التقارير: يتم تصميم التواصل بما يتناسب مع مرحلة مشاركتك - تحديثات يومية أو أسبوعية أو شهرية حسب الحاجة.</span>
                             </p>
                         </div>
                     </div>
